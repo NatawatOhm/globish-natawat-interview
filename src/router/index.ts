@@ -1,10 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Main from '../pages/Main.vue'
+import Personality from '../pages/Personality.vue'
 
 const routes = [
   {
     path: '/',
     component: Main,
+  },
+  {
+    path: '/personality',
+    component: Personality,
   },
 ]
 const router = createRouter({
