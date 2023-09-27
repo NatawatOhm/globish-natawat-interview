@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'IBMPlexSansThai-Regular';
+  src: url('../src/assets/fonts/IBMPlexSansThai-Regular.ttf');
+}
+@font-face {
+  font-family: 'IBMPlexSansThai-Medium';
+  src: url('../src/assets/fonts/IBMPlexSansThai-Medium.ttf');
+}
+@font-face {
+  font-family: 'IBMPlexSansThai-Bold';
+  src: url('../src/assets/fonts/IBMPlexSansThai-Bold.ttf');
+}
+@font-face {
+  font-family: 'IBMPlexSansThai-ExtraLight';
+  src: url('../src/assets/fonts/IBMPlexSansThai-ExtraLight.ttf');
+}
+@font-face {
+  font-family: 'IBMPlexSansThai-Light';
+  src: url('../src/assets/fonts/IBMPlexSansThai-Light.ttf');
+}
+@font-face {
+  font-family: 'IBMPlexSansThai-SemiBold';
+  src: url('../src/assets/fonts/IBMPlexSansThai-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'HandWrite';
+  src: url('../src/assets/fonts/GloriaHallelujah-Regular.ttf');
+}
+
+body {
+  justify-content: center;
+  font-family: IBMPlexSansThai-Regular;
+  color: #10153c;
+  background: #39b7e8;
+  font-size: 16px;
+  font-weight: normal;
+}
